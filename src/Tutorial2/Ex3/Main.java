@@ -1,4 +1,4 @@
-package Ex3;
+package Tutorial2.Ex3;
 
 import java.util.Scanner;
 

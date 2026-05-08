@@ -1,4 +1,4 @@
-package ex1;
+package Tutorial2.ex1;
 
 import java.util.Scanner;
 

@@ -1,19 +1,23 @@
-package ex1;
+package Tutorial2.Ex3;
 
 import java.util.Scanner;
 
-public class Product {
+public class UpdateProduct {
     private String name;
     private double price;
     private double discout;
 
 
-    public Product(){}
+    public UpdateProduct(){}
 
-    public Product(String name, double price, double discout) {
+    public UpdateProduct(String name, double price, double discout) {
         this.name = name;
         this.price = price;
         this.discout =discout;
+    }
+    public UpdateProduct(String name, double price){
+        this.name = name;
+        this.price = price;
     }
     public String getName(){
         return name;
@@ -33,7 +37,7 @@ public class Product {
     public void setDiscount(double discout){
         this.discout = discout;
     }
-    public double getImportTax(){
+    private double getImportTax(){
         return price * 0.1;
     }
     public void displayInfo(){
@@ -47,4 +51,5 @@ public class Product {
         this.price = sc.nextDouble();
         this.discout = sc.nextDouble();
     }
+
 }

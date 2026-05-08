@@ -1,6 +1,6 @@
-package ex2;
+package Tutorial2.ex2;
 
-import ex1.Product;
+import Tutorial2.ex1.Product;
 
 import java.util.Scanner;
 
