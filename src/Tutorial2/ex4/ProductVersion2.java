@@ -5,5 +5,4 @@ public class ProductVersion2 {
     private double price;
     private double discount;
     private int productCount;
-    private double
 }
